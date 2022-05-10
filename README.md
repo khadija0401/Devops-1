@@ -54,7 +54,7 @@ Exp 2
 
 17) Now manually (GUI) go and check the Hello.c file in myHello. You can see the changes that were done in myHelloClone/Hello.c in myHello/Hello.c
 ```
-Exp 3 & 4
+Exp 3 
 ```
 1) Open Git Bash
 
@@ -86,6 +86,44 @@ Exp 3 & 4
 14) git push -u origin master
 
 15) Now go back to gitub.com on your browser and check the master branch of your repository. You will see "file1.txt"  in it.
+```
+Exp 4
+```
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+git init
+
+##create doc file in local drive
+git add .
+git status
+git commit - m "comment"
+git push
+git remote add origin url
+git push --set-upstream origin master
+
+##change to master branch in git hub repo and check if file is added
+## add a new file 
+git fetch
+git merge 
+
+## make another file 
+git pull
+git log
+
+##to create a new branch
+git checkout -b anybranchname
+git checkout abovebranchname
+git remote -v
+git branch -vv
+git ls -files
+
+## to restore modified file, modify content of a file in local
+git status
+git restore filename
+git status
+
+git clone url
+cd
 ```
 Exp 5
 ```
