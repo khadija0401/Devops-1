@@ -20,7 +20,7 @@ Step 4 : Save and Build
 Exp 2
 
 ```
-1) hg (to check Mercurial is installed)
+1) hg (to check Mercurial is installed) / hg config --edit to change mercurial.ini
 
 2) mkdir repo (in any drive C,D,E)
 
