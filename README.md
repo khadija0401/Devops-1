@@ -1,7 +1,9 @@
 # Devops
 
 Exp 1 
-
+```
+java -jar jenkins.war --httpPort=9191
+```
 ```
 class Test
 {
