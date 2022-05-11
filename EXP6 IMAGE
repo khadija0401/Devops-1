@@ -1,0 +1,10 @@
+sudo docker pull docker/whalesay:latest
+sudo docker image ls
+sudo docker run "id" cowsay boo
+sudo docker ps -a
+sudo docker stop "containter_id"
+sudo docker rm "container_id"
+sudo docker ps -a
+sudo docker image ls
+sudo docker image rm "id"
+sudo docker image ls
